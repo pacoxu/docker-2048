@@ -1,4 +1,3 @@
-test
 # docker-2048 Pacoxu
 
 simple is better
