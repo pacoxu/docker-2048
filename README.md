@@ -33,6 +33,7 @@ Base on nginx
 # run the docker container by pulling the image directly
 
     docker run -d -p 8080:80 alexwhen/docker-2048
+    
 
 # Access the game
 
