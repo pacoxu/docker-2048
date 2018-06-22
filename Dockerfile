@@ -1,5 +1,10 @@
 FROM alpine:latest
 
+ARG GIT_SHA
+ARG GIT_SHA1
+ARG GIT_SHA2
+
+ENV GIT_SHA $GIT_SHA
 MAINTAINER alex <alexwhen@gmail.com> 
 
 RUN apk --update add nginx git
