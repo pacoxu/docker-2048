@@ -5,6 +5,7 @@ ARG GIT_SHA1
 ARG GIT_SHA2
 
 ENV GIT_SHA $GIT_SHA
+RUN env
 MAINTAINER alex <alexwhen@gmail.com> 
 
 RUN apk --update add nginx git
